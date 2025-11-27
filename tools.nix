@@ -7,4 +7,8 @@ let
 
     nugetHash = "sha256-byMgF9JsLJzOqBMrnfB/35y1iTM++zMe4V1BZkDr2Rs=";
   };
-in { home.packages = [ centralisedPackageConverter ]; }
+in {
+  homeManagerModules.default = { ... }: {
+    home.packages = [ centralisedPackageConverter ];
+  };
+}
