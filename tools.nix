@@ -1,5 +1,12 @@
-{ pkgs, ... }:
+{
+  pkgs,
+  csharp-language-server,
+  ...
+}:
+
 let
+  csharpLanguageServer = csharp-language-server.packages.${pkgs.system}.csharp-ls;
+
   centralisedPackageConverter = pkgs.buildDotnetGlobalTool {
     pname = "central-pkg-converter";
     nugetName = "CentralisedPackageConverter";
@@ -11,7 +18,7 @@ in
 {
   home.packages = with pkgs; [
     centralisedPackageConverter
-    csharp-ls
+    csharpLanguageServer
     csharpier
     dotnet-ef
   ];
