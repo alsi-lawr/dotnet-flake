@@ -1,11 +1,13 @@
 {
   pkgs,
   csharp-language-server,
+  dotnet-workspace-explorer,
   ...
 }:
 
 let
   csharpLanguageServer = csharp-language-server.packages.${pkgs.system}.csharp-ls;
+  dotnetWorkspaceExplorer = dotnet-workspace-explorer.packages.${pkgs.system}.default;
 
   centralisedPackageConverter = pkgs.buildDotnetGlobalTool {
     pname = "central-pkg-converter";
@@ -21,5 +23,6 @@ in
     csharpLanguageServer
     csharpier
     dotnet-ef
+    dotnetWorkspaceExplorer
   ];
 }

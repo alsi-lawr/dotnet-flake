@@ -8,11 +8,17 @@
       url = "path:/home/alex/dev/csharp-language-server";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    dotnet-workspace-explorer = {
+      url = "github:alsi-lawr/dotnet-workspace-explorer";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
     {
       csharp-language-server,
+      dotnet-workspace-explorer,
       ...
     }:
     {
@@ -29,7 +35,7 @@
         in
         {
           _module.args = {
-            inherit csharp-language-server;
+            inherit csharp-language-server dotnet-workspace-explorer;
           };
 
           imports = [ ./tools.nix ];
