@@ -29,11 +29,11 @@
         "workspace-explorer": "workspace-explorer"
       },
       "locked": {
-        "lastModified": 1786578663,
-        "narHash": "sha256-/CB+/Iyc5gDFjfLQztWIirNLCTZZj8rVe4ZaMTOvJNk=",
+        "lastModified": 1786578944,
+        "narHash": "sha256-niRo2+VDShx+F1PxNkJTbrjTebA3YRYUfODVc6ctYsU=",
         "ref": "refs/heads/master",
-        "rev": "b587019050c96c16ee46eac597272f018632c785",
-        "revCount": 46,
+        "rev": "43a976ad04794c1779d182e0923ee6f84cd1c085",
+        "revCount": 47,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-package-explorer"
       },
