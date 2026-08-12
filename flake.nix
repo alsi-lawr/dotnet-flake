@@ -5,12 +5,17 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     csharp-language-server = {
-      url = "path:/home/alex/dev/csharp-language-server";
+      url = "github:alsi-lawr/csharp-language-server/perf/shared-analyzer-diagnostics-a4-002";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
     dotnet-workspace-explorer = {
-      url = "github:alsi-lawr/dotnet-workspace-explorer";
+      url = "git+file:///home/alex/dev/dotnet-workspace-explorer";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    dotnet-package-explorer = {
+      url = "git+file:///home/alex/dev/dotnet-package-explorer";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -19,6 +24,7 @@
     {
       csharp-language-server,
       dotnet-workspace-explorer,
+      dotnet-package-explorer,
       ...
     }:
     {
@@ -35,7 +41,7 @@
         in
         {
           _module.args = {
-            inherit csharp-language-server dotnet-workspace-explorer;
+            inherit csharp-language-server dotnet-workspace-explorer dotnet-package-explorer;
           };
 
           imports = [ ./tools.nix ];

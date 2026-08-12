@@ -7,14 +7,39 @@
         ]
       },
       "locked": {
-        "lastModified": 1784832891,
-        "narHash": "sha256-K71DsQUjd5Y6g1cKcRuBAaz59V0IK4vy2WtpjKXYgD4=",
-        "path": "/home/alex/dev/csharp-language-server",
-        "type": "path"
+        "lastModified": 1786113987,
+        "narHash": "sha256-Lnc6R+SlZLt8H7hw5J7iQ9d39ti5dihvU0MNCoMNWU0=",
+        "owner": "alsi-lawr",
+        "repo": "csharp-language-server",
+        "rev": "ed8c52944f4c6f37e01bb5b9e03e81a7c0d2fd0c",
+        "type": "github"
       },
       "original": {
-        "path": "/home/alex/dev/csharp-language-server",
-        "type": "path"
+        "owner": "alsi-lawr",
+        "ref": "perf/shared-analyzer-diagnostics-a4-002",
+        "repo": "csharp-language-server",
+        "type": "github"
+      }
+    },
+    "dotnet-package-explorer": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "workspace-explorer": "workspace-explorer"
+      },
+      "locked": {
+        "lastModified": 1786561206,
+        "narHash": "sha256-8Z0jm2prCaiFz6K4jffFKJD1eGa4QZ0qauivK91oJJs=",
+        "ref": "refs/heads/master",
+        "rev": "660d7ff688ba4f8c4664fb1a6fac6224ecdcab15",
+        "revCount": 40,
+        "type": "git",
+        "url": "file:///home/alex/dev/dotnet-package-explorer"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/alex/dev/dotnet-package-explorer"
       }
     },
     "dotnet-workspace-explorer": {
@@ -24,26 +49,26 @@
         ]
       },
       "locked": {
-        "lastModified": 1785692572,
-        "narHash": "sha256-ef76zdHHoo4qZOdOvKzIWxeyLQ4uvVbd3GSEx5ih/hY=",
-        "owner": "alsi-lawr",
-        "repo": "dotnet-workspace-explorer",
-        "rev": "fa778633655c309cbbc46d30612a280d4ff838da",
-        "type": "github"
+        "lastModified": 1786529875,
+        "narHash": "sha256-LCLWqW32wer9+oCZnQSdTHrWRDSzJLbFhfPRLxo+uS0=",
+        "ref": "refs/heads/master",
+        "rev": "15673e9103698ba75b08314e0429f642fa109a50",
+        "revCount": 220,
+        "type": "git",
+        "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       },
       "original": {
-        "owner": "alsi-lawr",
-        "repo": "dotnet-workspace-explorer",
-        "type": "github"
+        "type": "git",
+        "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1784497964,
-        "narHash": "sha256-vlHUuqAcbcH2RKmHbPiuQzbv1pnzzavXnI62RD0bqCU=",
+        "lastModified": 1786384358,
+        "narHash": "sha256-RzPPiWeUtuvymnpuEWsdtzli5w4kjZs49FqEs3/1u+I=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "241313f4e8e508cb9b13278c2b0fa25b9ca27163",
+        "rev": "2fcb964de67fcf60b43471c55d5d99e61a9ccb5a",
         "type": "github"
       },
       "original": {
@@ -56,8 +81,31 @@
     "root": {
       "inputs": {
         "csharp-language-server": "csharp-language-server",
+        "dotnet-package-explorer": "dotnet-package-explorer",
         "dotnet-workspace-explorer": "dotnet-workspace-explorer",
         "nixpkgs": "nixpkgs"
+      }
+    },
+    "workspace-explorer": {
+      "inputs": {
+        "nixpkgs": [
+          "dotnet-package-explorer",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1786499573,
+        "narHash": "sha256-WL6tYwvQUSZ+gt5iJazji/BW/c+LEJQJl2iI71BKf8k=",
+        "owner": "alsi-lawr",
+        "repo": "dotnet-workspace-explorer",
+        "rev": "752b3fdaa99957ea3f5664ee37e9f4c751638bd3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "alsi-lawr",
+        "ref": "v0.4.0",
+        "repo": "dotnet-workspace-explorer",
+        "type": "github"
       }
     }
   },
