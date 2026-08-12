@@ -29,11 +29,11 @@
         "workspace-explorer": "workspace-explorer"
       },
       "locked": {
-        "lastModified": 1786561206,
-        "narHash": "sha256-8Z0jm2prCaiFz6K4jffFKJD1eGa4QZ0qauivK91oJJs=",
+        "lastModified": 1786576495,
+        "narHash": "sha256-ysOdhhfn/RWAmqjrIK7AtbwJ0EfMFWsR6v2/6NdIaYE=",
         "ref": "refs/heads/master",
-        "rev": "660d7ff688ba4f8c4664fb1a6fac6224ecdcab15",
-        "revCount": 40,
+        "rev": "e4bcbb3c41bf14fd0c45d7035674ac36672aecff",
+        "revCount": 43,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-package-explorer"
       },
@@ -49,11 +49,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786529875,
-        "narHash": "sha256-LCLWqW32wer9+oCZnQSdTHrWRDSzJLbFhfPRLxo+uS0=",
+        "lastModified": 1786576465,
+        "narHash": "sha256-Nv4YxdqAWIVCLSzsOSL+o/sW6/IXaAZ0K52Sk9H2Ebo=",
         "ref": "refs/heads/master",
-        "rev": "15673e9103698ba75b08314e0429f642fa109a50",
-        "revCount": 220,
+        "rev": "c2e9ffb195214a03c2e955dcaca0f875da46356e",
+        "revCount": 221,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       },
@@ -94,18 +94,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1786499573,
-        "narHash": "sha256-WL6tYwvQUSZ+gt5iJazji/BW/c+LEJQJl2iI71BKf8k=",
-        "owner": "alsi-lawr",
-        "repo": "dotnet-workspace-explorer",
-        "rev": "752b3fdaa99957ea3f5664ee37e9f4c751638bd3",
-        "type": "github"
+        "lastModified": 1786576465,
+        "narHash": "sha256-Nv4YxdqAWIVCLSzsOSL+o/sW6/IXaAZ0K52Sk9H2Ebo=",
+        "ref": "refs/heads/master",
+        "rev": "c2e9ffb195214a03c2e955dcaca0f875da46356e",
+        "revCount": 221,
+        "type": "git",
+        "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       },
       "original": {
-        "owner": "alsi-lawr",
-        "ref": "v0.4.0",
-        "repo": "dotnet-workspace-explorer",
-        "type": "github"
+        "type": "git",
+        "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       }
     }
   },
