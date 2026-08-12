@@ -29,11 +29,11 @@
         "workspace-explorer": "workspace-explorer"
       },
       "locked": {
-        "lastModified": 1786578016,
-        "narHash": "sha256-AUHgmXtoNGkTPQJ0jUgXwk1WHCJ0VbE+8RgnX5d43hU=",
+        "lastModified": 1786578663,
+        "narHash": "sha256-/CB+/Iyc5gDFjfLQztWIirNLCTZZj8rVe4ZaMTOvJNk=",
         "ref": "refs/heads/master",
-        "rev": "37a3d72c66fcc9e3c771c7f2aec4c5f145ca66a4",
-        "revCount": 44,
+        "rev": "b587019050c96c16ee46eac597272f018632c785",
+        "revCount": 46,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-package-explorer"
       },
@@ -49,11 +49,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786576465,
+        "lastModified": 1786578603,
         "narHash": "sha256-Nv4YxdqAWIVCLSzsOSL+o/sW6/IXaAZ0K52Sk9H2Ebo=",
         "ref": "refs/heads/master",
-        "rev": "c2e9ffb195214a03c2e955dcaca0f875da46356e",
-        "revCount": 221,
+        "rev": "84d394b4efe9e00d46a21eb8dcd3449970be94cc",
+        "revCount": 223,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       },
@@ -94,11 +94,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786576465,
+        "lastModified": 1786578603,
         "narHash": "sha256-Nv4YxdqAWIVCLSzsOSL+o/sW6/IXaAZ0K52Sk9H2Ebo=",
         "ref": "refs/heads/master",
-        "rev": "c2e9ffb195214a03c2e955dcaca0f875da46356e",
-        "revCount": 221,
+        "rev": "84d394b4efe9e00d46a21eb8dcd3449970be94cc",
+        "revCount": 223,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       },
