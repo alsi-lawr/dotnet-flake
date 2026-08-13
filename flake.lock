@@ -29,11 +29,11 @@
         "workspace-explorer": "workspace-explorer"
       },
       "locked": {
-        "lastModified": 1786588866,
-        "narHash": "sha256-730p7kfH0BaxCufyLBo2gGhmC1sDe4tIBracDu2xrVg=",
+        "lastModified": 1786652231,
+        "narHash": "sha256-BqyxA+WF5YlP/9BXjvpuy5nsnHuPd1qXSp9WzjVMbwQ=",
         "ref": "refs/heads/master",
-        "rev": "22c41524f026ec004b9582d37b1f67b426992a11",
-        "revCount": 55,
+        "rev": "55179cc9cd8199f0c5fe402994e7638ec62620c1",
+        "revCount": 56,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-package-explorer"
       },
@@ -64,11 +64,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1786384358,
-        "narHash": "sha256-RzPPiWeUtuvymnpuEWsdtzli5w4kjZs49FqEs3/1u+I=",
+        "lastModified": 1786599213,
+        "narHash": "sha256-yNJd40f11EzXBjSByCB7IPpeFFAdeoSKKM67dGkfFoU=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2fcb964de67fcf60b43471c55d5d99e61a9ccb5a",
+        "rev": "0e251e24a4f24e036a084b6b4b2d2491af4167f4",
         "type": "github"
       },
       "original": {
