@@ -29,11 +29,11 @@
         "workspace-explorer": "workspace-explorer"
       },
       "locked": {
-        "lastModified": 1786654788,
-        "narHash": "sha256-9TGPss7vQeWcA91FQGbrXz7lIpEvexttkBy3+qJ6dI4=",
+        "lastModified": 1786657835,
+        "narHash": "sha256-yk2pmbqe+7LG2Q4NwF8j3oAYqPMTTfK6MRtteG0Zy5M=",
         "ref": "refs/heads/master",
-        "rev": "c7aeb8eb40ee6f459147d224342d8460dba73f45",
-        "revCount": 57,
+        "rev": "30e1ad95c8ad24908ec44d6e5e3ac9161b6e09b8",
+        "revCount": 58,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-package-explorer"
       },
@@ -49,11 +49,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786578603,
-        "narHash": "sha256-Nv4YxdqAWIVCLSzsOSL+o/sW6/IXaAZ0K52Sk9H2Ebo=",
+        "lastModified": 1786657764,
+        "narHash": "sha256-QCJKO+11ub3meowruV3WNx37Q0OssQ+mt/goJglF6HM=",
         "ref": "refs/heads/master",
-        "rev": "84d394b4efe9e00d46a21eb8dcd3449970be94cc",
-        "revCount": 223,
+        "rev": "34cfb957a62dc44ab12d61db895794a9a1873dd5",
+        "revCount": 222,
         "type": "git",
         "url": "file:///home/alex/dev/dotnet-workspace-explorer"
       },
@@ -94,17 +94,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1786578603,
+        "lastModified": 1786657281,
         "narHash": "sha256-Nv4YxdqAWIVCLSzsOSL+o/sW6/IXaAZ0K52Sk9H2Ebo=",
-        "ref": "refs/heads/master",
-        "rev": "84d394b4efe9e00d46a21eb8dcd3449970be94cc",
-        "revCount": 223,
-        "type": "git",
-        "url": "file:///home/alex/dev/dotnet-workspace-explorer"
+        "owner": "alsi-lawr",
+        "repo": "dotnet-workspace-explorer",
+        "rev": "820530310becaf2b7530aba9fbc3215ae1256cbe",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///home/alex/dev/dotnet-workspace-explorer"
+        "owner": "alsi-lawr",
+        "repo": "dotnet-workspace-explorer",
+        "type": "github"
       }
     }
   },
